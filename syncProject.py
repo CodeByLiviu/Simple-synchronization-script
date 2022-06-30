@@ -137,7 +137,7 @@ def mainLoop(interval, source, target, pathToReport):
 # be sure you will use this "/" not this "\"
 # sourceFolderPath = 'C:/Users/Liviu/Desktop/test/New folder/source/'
 # replicaFolderPath = 'C:/Users/Liviu/Desktop/test/New folder/replica/'
-# fileReportFolder = 'C:/Users/Liviu/Desktop/test/New folder/'
+# fileReportPath = 'C:/Users/Liviu/Desktop/test/New folder/'
 # setInterval = 10
 
 sourceFolderPath = input("Input your source folder path: ")
