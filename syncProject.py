@@ -95,7 +95,7 @@ def createReport(pathToFolder1, pathToFolder2):
     """
     This method creates the report to be printed or write.
     :param pathToFolder1: the path to the first folder
-    :param pathToFolder2: the pat to the second folder
+    :param pathToFolder2: the path to the second folder
     :return:  a text that you can print to the terminal or write to a file
     """
     filesToRemove = compareFilesInFolders(pathToFolder2, pathToFolder1)
@@ -111,7 +111,8 @@ def mainLoop(interval, source, target, pathToReport):
     :param interval: time in seconds between each sync
     :param source: is the path to a folder from which you want to make a copy
     :param target: is the path to a folder that you want to copy to
-    :return:
+    :pathToReport: is the path to a folder where .txt file will be created to store data
+    :return: "return" is used to stop the process if there is something wrong.
     """
     fileReportName = "fileReport.txt"
     pathToReport = f"{pathToReport}{fileReportName}"
